@@ -13,7 +13,7 @@ exports.config = {
     allScriptsTimeout: 11000,
 
     specs: [
-        '/Users/thuvvareka/PhpstormProjects/protractortest/e2e-tests/tests/RunTest.js'
+        '/Users/thuvvareka/gitlabrepo/protractorjavascript/e2e-tests/tests/RunTest.js'
     ],
 
     capabilities: {
