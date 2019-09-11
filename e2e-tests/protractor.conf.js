@@ -17,7 +17,8 @@ exports.config = {
     ],
 
     capabilities: {
-        browserName: 'chrome'
+        browserName: 'chrome',
+        unexpectedAlertBehaviour: 'accept'
     },
 
     framework: 'jasmine',

@@ -26,6 +26,4 @@ describe('tests on multiform', function () {
     it('should submit the form', function () {
         multiForm.paymentPage();
     });
-
-
 });
