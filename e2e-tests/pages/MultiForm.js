@@ -35,7 +35,6 @@ var MultiForm = function () {
     };
     this.paymentPage=function () {
         this.clickNextButton().click();
-
     }
 };
 module.exports = new MultiForm();
