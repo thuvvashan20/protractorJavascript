@@ -25,6 +25,7 @@ var MultiForm = function () {
         return checkBox;
     };
     this.profilePage = function (name, emailID) {
+
         this.setNameField().sendKeys(name);
         this.setEmail().sendKeys(emailID);
         this.clickNextButton().click();

@@ -21,6 +21,7 @@ exports.config = {
         unexpectedAlertBehaviour: 'accept'
     },
 
+
     framework: 'jasmine',
 
     jasmineNodeOpts: {

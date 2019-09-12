@@ -15,15 +15,14 @@ describe('tests on multiform', function () {
         });
     });
 
-    xit('should select the second check box', function () {
+    it('should select the second check box', function () {
         multiForm.interestPage();
         multiForm.getResults1().getText().then(function (value) {
-            expect(value).toContain('{"name":"devops","email":"gayasharan4@gmail.com","type":"ps"}')
+            expect(value).toContain('{"name":"thuvva","email":"thuvvashan20@gmail.com","type":"ps"}')
         });
-        multiForm.paymentPage();
     });
 
-    xit('should submit the form', function () {
+    it('should submit the form', function () {
         multiForm.paymentPage();
     });
 });
